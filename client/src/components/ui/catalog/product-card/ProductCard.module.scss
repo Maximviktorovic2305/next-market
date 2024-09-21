@@ -1,0 +1,23 @@
+.card {
+	@apply flex flex-col py-1 gap-2 rounded-lg overflow-hidden;
+
+	> .wrapper {
+		@apply m-auto;
+	}
+
+	> .img {
+		@apply object-cover min-h-[200px] w-auto h-auto;
+	}
+
+	> .title {
+		@apply mt-4 font-semibold text-gray-700 line-clamp-1 pl-[10%] max-sm:pl-[20%];
+	}
+
+	> .category {
+		@apply mt-1 text-sm text-gray-500 pl-[10%] max-sm:pl-[20%];
+	}
+
+	> .price {
+		@apply mt-1 font-medium text-sm text-gray-900 pl-[10%] max-sm:pl-[20%];
+	}
+}

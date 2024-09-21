@@ -1,0 +1,9 @@
+.wrapper {
+	@apply flex justify-around items-center  py-5 text-center border-t border-gray-200 mt-10;
+}
+
+.title {
+@apply cursor-pointer text-[#3b82f6] hover:text-[#0742a1] duration-200;
+}   
+
+

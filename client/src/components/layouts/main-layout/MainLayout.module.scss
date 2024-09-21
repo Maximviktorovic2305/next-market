@@ -1,0 +1,7 @@
+.layout {
+	@apply flex flex-col justify-between min-h-screen w-full;
+
+	> main {
+		@apply flex-1 h-full w-full px-10;
+	}
+}
